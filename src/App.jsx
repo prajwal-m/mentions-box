@@ -36,6 +36,7 @@ function App() {
 
   return (
     <>
+      <h1>Mention Box</h1>
       <MentionInput suggestionList={users} onChangeCb={inputChangeCb} />
     </>
   );
