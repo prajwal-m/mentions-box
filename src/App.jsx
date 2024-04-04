@@ -37,6 +37,7 @@ function App() {
   return (
     <>
       <h1>Mention Box</h1>
+      <p>Use @ to trigger mentions</p>
       <MentionInput suggestionList={users} onChangeCb={inputChangeCb} />
     </>
   );
