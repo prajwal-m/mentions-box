@@ -28,6 +28,10 @@ function App() {
       id: "mark",
       display: "Mark Zuckerberg",
     },
+    {
+      id: "charlie",
+      display: "Charles Babbage",
+    },
   ];
 
   const inputChangeCb = (value) => {
