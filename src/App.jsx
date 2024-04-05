@@ -48,6 +48,10 @@ function App() {
       id: "test7",
       display: "Test User 7",
     },
+      {
+      id: "test9",
+      display: "Test User 9",
+    },
   ];
 
   const inputChangeCb = (value) => {
