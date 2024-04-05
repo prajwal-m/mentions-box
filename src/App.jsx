@@ -28,6 +28,18 @@ function App() {
       id: "mark",
       display: "Mark Zuckerberg",
     },
+    {
+      id: "charlie",
+      display: "Charles Babbage",
+    },
+    {
+      id: "test1",
+      display: "Test User 1",
+    },
+    {
+      id: "test2",
+      display: "Test User 2",
+    },
   ];
 
   const inputChangeCb = (value) => {
@@ -35,10 +47,11 @@ function App() {
   };
 
   return (
-    <>
+    <div>
       <h1>Mention Box</h1>
+      <p>Use @ to trigger mentions</p>
       <MentionInput suggestionList={users} onChangeCb={inputChangeCb} />
-    </>
+    </div>
   );
 }
 
